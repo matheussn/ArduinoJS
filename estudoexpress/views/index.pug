@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  div(id='div_pai')
+    div(class='div_filho')
+      p(class='titulo_botao')
+      a(class='link_teste')
+        button(class='button_div')
+    div(class='div_filho')
+      p(class='titulo_botao')
+      a(class='link_teste')
+        button(class='button_div', )
+
+
+  script(type='text/javascript', src='/javascripts/index_visual.js')
